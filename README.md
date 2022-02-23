@@ -7,3 +7,10 @@ Goal of the project was to create minimalistic web api to fetch data from open s
 Learning objectives
 
 Personal goals were to learn c# and dotnet and strenghten my skills in typescript and react.
+
+Running
+
+Ports: Front runs at port 3000, Backend at port 5001
+E2E: Cypress can be started with npm cypress:open
+Jest: npm run test (PowerShell: ($env:CI = "true") -and (npm test))
+xUnit: dotnet test
